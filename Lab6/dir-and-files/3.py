@@ -19,4 +19,3 @@ def check_path(path):
 specified_path = input("Enter the file or directory path: ")
 
 check_path(specified_path)
-#/Users/arsenijkansin/Documents/labpp2/lab6/dir-and-files

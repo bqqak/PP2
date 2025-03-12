@@ -4,9 +4,9 @@ from datetime import datetime
 
 pygame.init()
 
-clock_img = pygame.image.load("/Users/arsenijkansin/Documents/labpp2/lab7/1_task/pictures/clock_mouse.png")
-minute_hand_img = pygame.image.load("/Users/arsenijkansin/Documents/labpp2/lab7/1_task/pictures/min_hand.png")
-second_hand_img = pygame.image.load("/Users/arsenijkansin/Documents/labpp2/lab7/1_task/pictures/sec_hand.png")
+clock_img = pygame.image.load("pictures/clock_mouse.png")
+minute_hand_img = pygame.image.load("pictures/min_hand.png")
+second_hand_img = pygame.image.load("pictures/sec_hand.png")
 
 WIDTH, HEIGHT = clock_img.get_size()
 

@@ -1,7 +1,7 @@
 import pygame
 import time
 from datetime import datetime
-
+# start
 pygame.init()
 
 clock_img = pygame.image.load("pictures/clock_mouse.png")

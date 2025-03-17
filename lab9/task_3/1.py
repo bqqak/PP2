@@ -2,7 +2,7 @@
 import pygame
 import sys
 import math  # Для расчётов при рисовании фигур
-
+# start
 pygame.init()
 
 # Параметры окна

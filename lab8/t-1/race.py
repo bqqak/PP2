@@ -1,7 +1,7 @@
 import pygame
 import random
 import sys
-
+# start
 pygame.init()
 
 WIDTH, HEIGHT = 600, 800

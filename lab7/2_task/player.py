@@ -2,7 +2,7 @@
 import pygame
 import os
 import sys
-
+# start
 pygame.mixer.init()
 pygame.init()
 

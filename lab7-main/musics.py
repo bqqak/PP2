@@ -5,7 +5,7 @@ pygame.init()
 
 playlist = []
 # музыкалар орналасқан жерге path 
-music_folder = "/Users/bekzatshaiyrgozha/Documents/PP2/lab7/musics"
+music_folder = "/home/dastan/KBTU/lab7-main"
 allmusic = os.listdir(music_folder)
 
 # playlist-қа .mp3 деп аяқталса қосамыз 
@@ -14,7 +14,7 @@ for song in allmusic:
         playlist.append(os.path.join(music_folder, song))
 # экран бетіне шағатын терезе көлемі, аты
 screen = pygame.display.set_mode((800, 800))
-pygame.display.set_caption("Darkhan-Juzz")
+pygame.display.set_caption("Dastan-Juzz")
 clock = pygame.time.Clock()
 
 # артқы фонды енгіземіз
